@@ -9,6 +9,8 @@ import { RouteModule } from './route/route.module';
 import { RouterModule } from '@angular/router';
 import { ProductComponent } from './product/product.component';
 
+import { StoreInfoService } from './store-info.service';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {
@@ -38,7 +40,7 @@ import {
     MatGridListModule,
     MatListModule
   ],
-  providers: [],
+  providers: [StoreInfoService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

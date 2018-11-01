@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --offWhite: #fffff2;
+  --whiteOff:white;
+}
+
+body {
+  background-color: var(--offWhite);
+}
+
+.basic-container {
+  padding: 30px;
+}
+
+.mat-figure:hover {
+  background: rgba(0, 0, 0, 0.2); 
+}
+
+.mat-app-background {
+  background-color: var(--white-off);
+}
